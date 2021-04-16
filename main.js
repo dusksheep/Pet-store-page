@@ -1,0 +1,1 @@
+(()=>{const e=(e,n)=>{let t=document.createElement(e);return t.innerHTML=n,t};(()=>{const n=document.getElementById("content"),t=e("h1","Roupas para bulldogs"),o=e("img");o.src="logo.jpeg",n.appendChild(t),n.appendChild(o)})()})();
