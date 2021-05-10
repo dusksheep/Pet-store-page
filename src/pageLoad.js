@@ -4,19 +4,21 @@ const pageLoad = () => {
   const brinquedos = document.createElement("button");
   const roupinhas = document.createElement("button");
   const acessorios = document.createElement("button");
-  const higiene = document.createElement("button")
+  const higiene = document.createElement("button");
+  const home = document.createElement("button");
   
   leftNav.setAttribute("id", "leftNav");
-  brinquedos.setAttribute("class", "leftNavA");
-  roupinhas.setAttribute("class","leftNavA");
-  acessorios.setAttribute("class", "leftNavA");
-  higiene.setAttribute("class", "leftNavA");
+  brinquedos.setAttribute("class", "navButton");
+  roupinhas.setAttribute("class","navButton");
+  acessorios.setAttribute("class", "navButton");
+  higiene.setAttribute("class", "navButton");
+  home.setAttribute("class", "navButton");
 
   brinquedos.innerHTML = "Brinquedos"
   roupinhas.innerHTML = "Roupinhas"
   acessorios.innerHTML = "Acessorios"
   higiene.innerHTML = "Higiêne"
-
+  home.innerHTML = "Home"
   
   
 
@@ -26,7 +28,7 @@ const pageLoad = () => {
 
   //logo
   const logo = document.createElement("img");
-  logo.setAttribute("id", "logo");
+  logo.setAttribute("class", "centerLogo");
   logo.src = "logo.jpeg";
 
   //whatsapp number
@@ -51,6 +53,7 @@ const pageLoad = () => {
     logo,
     telephoneNumber,
     adress,
+    home,
   }
 }
 

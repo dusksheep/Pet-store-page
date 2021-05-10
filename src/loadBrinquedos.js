@@ -1,8 +1,15 @@
 const loadBrinquedos = () => {
-  const imgWrapper = document.createElement('div');
-  imgWrapper.setAttribute("class", "wrapper");
-
-  return {imgWrapper};
+  const logo = document.createElement("img");
+  logo.setAttribute("class", "rightLogo");
+  logo.src = "logo.jpeg";
+  
+  const brinquedosParagraph = document.createElement("h1");
+  brinquedosParagraph.setAttribute("class", "centerText");
+  brinquedosParagraph.innerHTML = "Brinquedos";
+  return {
+    logo,
+    brinquedosParagraph,
+  };
 }
 
 export default loadBrinquedos;

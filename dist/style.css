@@ -1,22 +1,31 @@
-
+body {
+  background-color: rgb(231, 231, 231);
+}
 #leftNav {
   height: 100%;
-  width: 12%;
+  width: 14em;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(15, 95, 26, 0.925);
-  padding-top: 3%;
+  background-color: rgba(15, 95, 26, 0.671);
+  padding-top: 1em;
   z-index: 1; 
 }
 
-.leftNavA {
+.navButton {
+  text-align: center;
+  width: 8em;
   position: relative;
-  padding: 8px 8px 8px 32px;
+  padding: 7px 7px 7px 7px;
+  margin-top: 5px;
+  margin-left: 10px;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  color: #d6d6d6;
+  color: rgb(46, 46, 46);
+  background-color: antiquewhite;
+  border: 0;
+  border-radius: 20px;
   display: inline-block;
   z-index: 2;
 }
@@ -34,7 +43,7 @@ h1 {
   padding-top:1%;
 }
 
-#logo {
+.centerLogo {
   display: block;
   width: 15%;
   margin-left: 42%;
@@ -52,9 +61,11 @@ h1 {
   font-size: large;
 }
 
-.wrapper {
-  border-radius: 10em;
-  border-color: aquamarine;
-  border-width: 10em;
-  border-style: solid;
+.rightLogo {
+  display: block;
+  width: 10em;
+  height: 10em;
+  margin-left: 80%;
+  margin-top: 0%;
+  padding-top: 2%;
 }
